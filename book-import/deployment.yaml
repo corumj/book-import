@@ -20,8 +20,8 @@ spec:
         ports:
         - containerPort: 8080
           name: http-server
-      resources:
-        limits:
-          cpu: 1
-        requests:
-          cpu: 600m
+        resources:
+          limits:
+            cpu: 1
+          requests:
+            cpu: 600m
